@@ -1,0 +1,41 @@
+#define TRIG 9
+#define ECHO 10
+#define BUMPER 7
+
+void setup() {
+
+  Serial.begin(9600);
+
+  pinMode(TRIG, OUTPUT);
+  pinMode(ECHO, INPUT);
+
+  pinMode(BUMPER, INPUT_PULLUP);
+}
+
+void loop() {
+
+  // Trigger ultrasonic
+  digitalWrite(TRIG, LOW);
+  delayMicroseconds(2);
+
+  digitalWrite(TRIG, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(TRIG, LOW);
+
+  // Read echo
+  long duration = pulseIn(ECHO, HIGH);
+
+  // Convert to distance
+  int distance = duration * 0.034 / 2;
+
+  // Read bumper
+  int bumper_state = digitalRead(BUMPER);
+
+  // Send data to serial
+  Serial.print("DIST:");
+  Serial.print(distance);
+  Serial.print(",BUMPER:");
+  Serial.println(bumper_state);
+
+  delay(300);
+}
