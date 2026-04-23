@@ -1,0 +1,81 @@
+[0.000000] (-) TimerEvent: {}
+[0.000332] (vision) JobQueued: {'identifier': 'vision', 'dependencies': OrderedDict()}
+[0.002148] (vision) JobStarted: {'identifier': 'vision'}
+[0.099510] (-) TimerEvent: {}
+[0.199962] (-) TimerEvent: {}
+[0.300450] (-) TimerEvent: {}
+[0.400893] (-) TimerEvent: {}
+[0.501333] (-) TimerEvent: {}
+[0.601814] (-) TimerEvent: {}
+[0.702420] (-) TimerEvent: {}
+[0.802885] (-) TimerEvent: {}
+[0.903319] (-) TimerEvent: {}
+[1.003775] (-) TimerEvent: {}
+[1.104266] (-) TimerEvent: {}
+[1.204732] (-) TimerEvent: {}
+[1.305189] (-) TimerEvent: {}
+[1.405675] (-) TimerEvent: {}
+[1.506120] (-) TimerEvent: {}
+[1.606602] (-) TimerEvent: {}
+[1.707045] (-) TimerEvent: {}
+[1.807530] (-) TimerEvent: {}
+[1.907977] (-) TimerEvent: {}
+[2.008459] (-) TimerEvent: {}
+[2.108990] (-) TimerEvent: {}
+[2.209474] (-) TimerEvent: {}
+[2.309985] (-) TimerEvent: {}
+[2.410509] (-) TimerEvent: {}
+[2.465040] (vision) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', 'build/vision', 'build', '--build-base', '/home/asracantik/patrol_robot_system/src/vision/build/vision/build', 'install', '--record', '/home/asracantik/patrol_robot_system/src/vision/build/vision/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/asracantik/patrol_robot_system/src/vision', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'asracantik', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/asracantik', 'OLDPWD': '/home/asracantik/patrol_robot_system/src/vision/my_camera_package/my_camera_package', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2461', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/asracantik/patrol_robot_system/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'asracantik', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'asracantik', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/asracantik:@/tmp/.ICE-unix/2228,unix/asracantik:/tmp/.ICE-unix/2228', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/94280105_3671_4f9c_a6d8_95ee28abb764', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.CGB7N3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.105', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/asracantik/patrol_robot_system/install/sensor_pkg:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/asracantik/patrol_robot_system/src/vision/build/vision', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/asracantik/patrol_robot_system/src/vision/build/vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asracantik/patrol_robot_system/src/vision/install/vision/lib/python3.12/site-packages:/home/asracantik/patrol_robot_system/install/sensor_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[2.510704] (-) TimerEvent: {}
+[2.611149] (-) TimerEvent: {}
+[2.711632] (-) TimerEvent: {}
+[2.812117] (-) TimerEvent: {}
+[2.912604] (-) TimerEvent: {}
+[3.013073] (-) TimerEvent: {}
+[3.113574] (-) TimerEvent: {}
+[3.170459] (vision) StdoutLine: {'line': b'running egg_info\n'}
+[3.171124] (vision) StdoutLine: {'line': b'creating build/vision/vision.egg-info\n'}
+[3.213754] (-) TimerEvent: {}
+[3.224029] (vision) StdoutLine: {'line': b'writing build/vision/vision.egg-info/PKG-INFO\n'}
+[3.224623] (vision) StdoutLine: {'line': b'writing dependency_links to build/vision/vision.egg-info/dependency_links.txt\n'}
+[3.225033] (vision) StdoutLine: {'line': b'writing entry points to build/vision/vision.egg-info/entry_points.txt\n'}
+[3.225470] (vision) StdoutLine: {'line': b'writing requirements to build/vision/vision.egg-info/requires.txt\n'}
+[3.225760] (vision) StdoutLine: {'line': b'writing top-level names to build/vision/vision.egg-info/top_level.txt\n'}
+[3.226097] (vision) StdoutLine: {'line': b"writing manifest file 'build/vision/vision.egg-info/SOURCES.txt'\n"}
+[3.313942] (-) TimerEvent: {}
+[3.333275] (vision) StdoutLine: {'line': b"reading manifest file 'build/vision/vision.egg-info/SOURCES.txt'\n"}
+[3.334813] (vision) StdoutLine: {'line': b"writing manifest file 'build/vision/vision.egg-info/SOURCES.txt'\n"}
+[3.335483] (vision) StdoutLine: {'line': b'running build\n'}
+[3.335739] (vision) StdoutLine: {'line': b'running build_py\n'}
+[3.336141] (vision) StdoutLine: {'line': b'creating /home/asracantik/patrol_robot_system/src/vision/build/vision/build\n'}
+[3.336481] (vision) StdoutLine: {'line': b'creating /home/asracantik/patrol_robot_system/src/vision/build/vision/build/lib\n'}
+[3.336824] (vision) StdoutLine: {'line': b'creating /home/asracantik/patrol_robot_system/src/vision/build/vision/build/lib/vision\n'}
+[3.337048] (vision) StdoutLine: {'line': b'copying vision/__init__.py -> /home/asracantik/patrol_robot_system/src/vision/build/vision/build/lib/vision\n'}
+[3.337280] (vision) StdoutLine: {'line': b'copying vision/camera.py -> /home/asracantik/patrol_robot_system/src/vision/build/vision/build/lib/vision\n'}
+[3.337817] (vision) StdoutLine: {'line': b'running install\n'}
+[3.354052] (vision) StdoutLine: {'line': b'running install_lib\n'}
+[3.406536] (vision) StdoutLine: {'line': b'creating /home/asracantik/patrol_robot_system/src/vision/install/vision/lib/python3.12/site-packages/vision\n'}
+[3.407050] (vision) StdoutLine: {'line': b'copying /home/asracantik/patrol_robot_system/src/vision/build/vision/build/lib/vision/__init__.py -> /home/asracantik/patrol_robot_system/src/vision/install/vision/lib/python3.12/site-packages/vision\n'}
+[3.407313] (vision) StdoutLine: {'line': b'copying /home/asracantik/patrol_robot_system/src/vision/build/vision/build/lib/vision/camera.py -> /home/asracantik/patrol_robot_system/src/vision/install/vision/lib/python3.12/site-packages/vision\n'}
+[3.408336] (vision) StdoutLine: {'line': b'byte-compiling /home/asracantik/patrol_robot_system/src/vision/install/vision/lib/python3.12/site-packages/vision/__init__.py to __init__.cpython-312.pyc\n'}
+[3.408974] (vision) StdoutLine: {'line': b'byte-compiling /home/asracantik/patrol_robot_system/src/vision/install/vision/lib/python3.12/site-packages/vision/camera.py to camera.cpython-312.pyc\n'}
+[3.410474] (vision) StdoutLine: {'line': b'running install_data\n'}
+[3.410992] (vision) StdoutLine: {'line': b'creating /home/asracantik/patrol_robot_system/src/vision/install/vision/share/ament_index\n'}
+[3.411322] (vision) StdoutLine: {'line': b'creating /home/asracantik/patrol_robot_system/src/vision/install/vision/share/ament_index/resource_index\n'}
+[3.411549] (vision) StdoutLine: {'line': b'creating /home/asracantik/patrol_robot_system/src/vision/install/vision/share/ament_index/resource_index/packages\n'}
+[3.411951] (vision) StdoutLine: {'line': b'copying resource/vision -> /home/asracantik/patrol_robot_system/src/vision/install/vision/share/ament_index/resource_index/packages\n'}
+[3.412261] (vision) StdoutLine: {'line': b'copying package.xml -> /home/asracantik/patrol_robot_system/src/vision/install/vision/share/vision\n'}
+[3.412513] (vision) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.414091] (-) TimerEvent: {}
+[3.469710] (vision) StdoutLine: {'line': b'Copying build/vision/vision.egg-info to /home/asracantik/patrol_robot_system/src/vision/install/vision/lib/python3.12/site-packages/vision-0.0.0-py3.12.egg-info\n'}
+[3.472221] (vision) StdoutLine: {'line': b'running install_scripts\n'}
+[3.514273] (-) TimerEvent: {}
+[3.614733] (-) TimerEvent: {}
+[3.715189] (-) TimerEvent: {}
+[3.815668] (-) TimerEvent: {}
+[3.829973] (vision) StdoutLine: {'line': b'Installing camera_node script to /home/asracantik/patrol_robot_system/src/vision/install/vision/lib/vision\n'}
+[3.830749] (vision) StdoutLine: {'line': b"writing list of installed files to '/home/asracantik/patrol_robot_system/src/vision/build/vision/install.log'\n"}
+[3.906619] (vision) CommandEnded: {'returncode': 0}
+[3.915882] (-) TimerEvent: {}
+[3.938732] (vision) JobEnded: {'identifier': 'vision', 'rc': 0}
+[3.940187] (-) EventReactorShutdown: {}

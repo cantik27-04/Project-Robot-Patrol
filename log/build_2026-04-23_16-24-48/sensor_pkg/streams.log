@@ -1,0 +1,41 @@
+[2.532s] Invoking command in '/home/asracantik/patrol_robot_system/src/sensor_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/asracantik/patrol_robot_system/build/sensor_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asracantik/patrol_robot_system/install/sensor_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensor_pkg build --build-base /home/asracantik/patrol_robot_system/build/sensor_pkg/build install --record /home/asracantik/patrol_robot_system/build/sensor_pkg/install.log --single-version-externally-managed install_data
+[3.309s] running egg_info
+[3.309s] creating ../../build/sensor_pkg/sensor_pkg.egg-info
+[3.364s] writing ../../build/sensor_pkg/sensor_pkg.egg-info/PKG-INFO
+[3.364s] writing dependency_links to ../../build/sensor_pkg/sensor_pkg.egg-info/dependency_links.txt
+[3.365s] writing entry points to ../../build/sensor_pkg/sensor_pkg.egg-info/entry_points.txt
+[3.365s] writing requirements to ../../build/sensor_pkg/sensor_pkg.egg-info/requires.txt
+[3.366s] writing top-level names to ../../build/sensor_pkg/sensor_pkg.egg-info/top_level.txt
+[3.366s] writing manifest file '../../build/sensor_pkg/sensor_pkg.egg-info/SOURCES.txt'
+[3.479s] reading manifest file '../../build/sensor_pkg/sensor_pkg.egg-info/SOURCES.txt'
+[3.481s] writing manifest file '../../build/sensor_pkg/sensor_pkg.egg-info/SOURCES.txt'
+[3.481s] running build
+[3.481s] running build_py
+[3.482s] creating /home/asracantik/patrol_robot_system/build/sensor_pkg/build
+[3.482s] creating /home/asracantik/patrol_robot_system/build/sensor_pkg/build/lib
+[3.482s] creating /home/asracantik/patrol_robot_system/build/sensor_pkg/build/lib/sensor_pkg
+[3.483s] copying sensor_pkg/__init__.py -> /home/asracantik/patrol_robot_system/build/sensor_pkg/build/lib/sensor_pkg
+[3.483s] copying sensor_pkg/encoder_dummy.py -> /home/asracantik/patrol_robot_system/build/sensor_pkg/build/lib/sensor_pkg
+[3.483s] copying sensor_pkg/gps_dummy.py -> /home/asracantik/patrol_robot_system/build/sensor_pkg/build/lib/sensor_pkg
+[3.484s] running install
+[3.501s] running install_lib
+[3.556s] creating /home/asracantik/patrol_robot_system/install/sensor_pkg/lib/python3.12/site-packages/sensor_pkg
+[3.557s] copying /home/asracantik/patrol_robot_system/build/sensor_pkg/build/lib/sensor_pkg/__init__.py -> /home/asracantik/patrol_robot_system/install/sensor_pkg/lib/python3.12/site-packages/sensor_pkg
+[3.557s] copying /home/asracantik/patrol_robot_system/build/sensor_pkg/build/lib/sensor_pkg/encoder_dummy.py -> /home/asracantik/patrol_robot_system/install/sensor_pkg/lib/python3.12/site-packages/sensor_pkg
+[3.557s] copying /home/asracantik/patrol_robot_system/build/sensor_pkg/build/lib/sensor_pkg/gps_dummy.py -> /home/asracantik/patrol_robot_system/install/sensor_pkg/lib/python3.12/site-packages/sensor_pkg
+[3.558s] byte-compiling /home/asracantik/patrol_robot_system/install/sensor_pkg/lib/python3.12/site-packages/sensor_pkg/__init__.py to __init__.cpython-312.pyc
+[3.559s] byte-compiling /home/asracantik/patrol_robot_system/install/sensor_pkg/lib/python3.12/site-packages/sensor_pkg/encoder_dummy.py to encoder_dummy.cpython-312.pyc
+[3.560s] byte-compiling /home/asracantik/patrol_robot_system/install/sensor_pkg/lib/python3.12/site-packages/sensor_pkg/gps_dummy.py to gps_dummy.cpython-312.pyc
+[3.561s] running install_data
+[3.562s] creating /home/asracantik/patrol_robot_system/install/sensor_pkg/share/ament_index
+[3.562s] creating /home/asracantik/patrol_robot_system/install/sensor_pkg/share/ament_index/resource_index
+[3.562s] creating /home/asracantik/patrol_robot_system/install/sensor_pkg/share/ament_index/resource_index/packages
+[3.563s] copying resource/sensor_pkg -> /home/asracantik/patrol_robot_system/install/sensor_pkg/share/ament_index/resource_index/packages
+[3.563s] copying package.xml -> /home/asracantik/patrol_robot_system/install/sensor_pkg/share/sensor_pkg
+[3.563s] running install_egg_info
+[3.622s] Copying ../../build/sensor_pkg/sensor_pkg.egg-info to /home/asracantik/patrol_robot_system/install/sensor_pkg/lib/python3.12/site-packages/sensor_pkg-0.0.0-py3.12.egg-info
+[3.625s] running install_scripts
+[3.998s] Installing encoder_dummy script to /home/asracantik/patrol_robot_system/install/sensor_pkg/lib/sensor_pkg
+[3.998s] Installing gps_dummy script to /home/asracantik/patrol_robot_system/install/sensor_pkg/lib/sensor_pkg
+[3.999s] writing list of installed files to '/home/asracantik/patrol_robot_system/build/sensor_pkg/install.log'
+[4.083s] Invoked command in '/home/asracantik/patrol_robot_system/src/sensor_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/asracantik/patrol_robot_system/build/sensor_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asracantik/patrol_robot_system/install/sensor_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensor_pkg build --build-base /home/asracantik/patrol_robot_system/build/sensor_pkg/build install --record /home/asracantik/patrol_robot_system/build/sensor_pkg/install.log --single-version-externally-managed install_data
