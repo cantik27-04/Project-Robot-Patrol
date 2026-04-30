@@ -1,3 +1,0 @@
-[console_scripts]
-encoder_dummy = sensor_pkg.encoder_dummy:main
-gps_dummy = sensor_pkg.gps_dummy:main
