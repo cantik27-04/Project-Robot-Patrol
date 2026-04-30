@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'sensor_pkg'
+package_name = 'power_monitor'
 
 setup(
     name=package_name,
@@ -15,14 +15,16 @@ setup(
     zip_safe=True,
     maintainer='asracantik',
     maintainer_email='asrabelajar@gmail.com',
-    description='Sensor package for GPS and Encoder dummy',
-    license='Apache License 2.0',
-    tests_require=['pytest'],
-
+    description='TODO: Package description',
+    license='TODO: License declaration',
+    extras_require={
+        'test': [
+            'pytest',
+        ],
+    },
     entry_points={
-    'console_scripts': [
-        'gps_dummy_node = sensor_pkg.gps_dummy_node:main',
-        'encoder_dummy = sensor_pkg.encoder_dummy:main',
-    ],
-},
+        'console_scripts': [
+            'power_node = power_monitor.power_node:main',
+        ],
+    },
 )

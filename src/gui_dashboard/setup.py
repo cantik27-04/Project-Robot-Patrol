@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'my_camera_package'
+package_name = 'gui_dashboard'
 
 setup(
     name=package_name,
@@ -24,6 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'dashboard = gui_dashboard.dashboard:main',
         ],
     },
 )
